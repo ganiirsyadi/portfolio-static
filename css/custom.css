@@ -1,0 +1,17 @@
+.basicLightbox {
+  background: rgba(0,0,0,0.85);
+}
+
+@media only screen and (min-width: 810px) {
+  .modal-popup {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 810px) and (max-height: 800px) {
+  .modal-popup {
+    height: 80vh;
+    overflow-y: scroll;
+  }
+}
