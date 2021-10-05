@@ -1,646 +1,508 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8" />
-    <title>Gani's Resume</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
 
-    <!-- mobile specific metas
+<head>
+  <!--- basic page needs
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <title>Gani's Resume</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <!-- CSS
+  <!-- mobile specific metas
     ================================================== -->
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/vendor.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- script
+  <!-- CSS
     ================================================== -->
-    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/custom.css" />
 
-    <!-- favicons
+  <!-- script
     ================================================== -->
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
-    <style>
-      #porto1::after {
-        content: "Student Council's Head Election";
-      }
-      #porto2::after {
-        content: "CPNS Tryout";
-      }
-      #porto3::after {
-        content: "BMI Calculator";
-      }
-      #porto4::after {
-        content: "Search a Book";
-      }
-      #porto5::after {
-        content: "Car Rental Website";
-      }
-      #comingsoon::after {
-        content: "Coming Soon";
-      }
-    </style>
-  </head>
+  <script defer src="js/vendor/fontawesome/all.min.js"></script>
 
-  <body id="top" class="ss-preload">
-    <!-- preloader
+  <!-- favicons
     ================================================== -->
-    <div id="preloader">
-      <div id="loader"></div>
+  <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
+  <style>
+    #porto1::after {
+      content: "Student Council's Head Election";
+    }
+
+    #porto2::after {
+      content: "CPNS Tryout";
+    }
+
+    #porto3::after {
+      content: "BMI Calculator";
+    }
+
+    #porto4::after {
+      content: "Search a Book";
+    }
+
+    #porto5::after {
+      content: "Car Rental Website";
+    }
+
+    #comingsoon::after {
+      content: "Coming Soon";
+    }
+  </style>
+</head>
+
+<body id="top" class="ss-preload">
+  <!-- preloader
+    ================================================== -->
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <!-- header
+    ================================================== -->
+  <header class="s-header">
+    <div class="row s-header__nav-wrap">
+      <nav class="s-header__nav">
+        <ul>
+          <li class="current">
+            <a class="smoothscroll" href="#hero">Home</a>
+          </li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#resume">Resume</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+          <li><a class="smoothscroll" href="#contact">Say Hello</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end row -->
+
+    <a class="s-header__menu-toggle" href="#0" title="Menu">
+      <span class="s-header__menu-icon"></span>
+    </a>
+  </header>
+  <!-- end s-header -->
+
+  <!-- hero
+    ================================================== -->
+  <section id="hero" class="s-hero target-section">
+    <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+    <div class="row s-hero__content">
+      <div class="column">
+        <div class="s-hero__content-about">
+          <h1>Hi, I'm Gani</h1>
+
+          <h3>
+            I am a <span>Software Engineer</span>. I'm creating awesome and
+            effective web apps using latest stacks, such as
+            <span>React</span>, <span>Redux</span>,
+            <span>Django</span>, <span>Laravel</span>, <span>Spring</span>, <span>Firebase</span>, and many more. Let's
+            <a class="smoothscroll" href="#about">start scrolling</a> and
+            learn more <a class="smoothscroll" href="#about">about me</a>.
+          </h3>
+
+          <div class="s-hero__content-social">
+            <a href="https://www.instagram.com/ganiirsyadi/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://medium.com/@ganiilhamirsyadi/"><i class="fab fa-medium" aria-hidden="true"></i></a>
+            <a href="https://github.com/ganiirsyadi"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://gitlab.com/ganiirsyadi"><i class="fab fa-gitlab" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/ganiirsyadi"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- end s-hero__content-about -->
+      </div>
+    </div>
+    <!-- s-hero__content -->
+
+    <div class="s-hero__scroll">
+      <a href="#about" class="s-hero__scroll-link smoothscroll">
+        <span class="scroll-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1);">
+            <path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z">
+            </path>
+          </svg>
+        </span>
+        <span class="scroll-text">Scroll Down</span>
+      </a>
+    </div>
+    <!-- s-hero__scroll -->
+  </section>
+  <!-- end s-hero -->
+
+  <!-- about
+    ================================================== -->
+  <section id="about" class="s-about target-section">
+    <div class="row">
+      <div class="column large-3 tab-12">
+        <img class="s-about__pic" src="images/profile.jfif" alt="" />
+      </div>
+      <div class="column large-9 tab-12 s-about__content">
+        <h3>About Me</h3>
+        <p>
+          Hello, I am a computer science student at Universitas Indonesia. I
+          have many experiences in developing web applications for several
+          projects. I am also active at organizational and event in my school.
+          My curiosity is always high at learning new technology. I can adapt
+          fast to a new environment. Never stop to learn is my motto for life.
+        </p>
+
+        <hr />
+
+        <div class="row s-about__content-bottom">
+          <div class="column w-1000-stack">
+            <h3>Contact Details</h3>
+
+            <p>
+              Gani Ilham Irsyadi <br />
+              Jepara, Jawa Tengah <br />
+              <a href="tel:+6281327072544">+62 8132 7072 544</a> <br />
+              <a href="mailto:ganiilhamirsyadi@gmail.com">ganiilhamirsyadi@gmail.com</a>
+            </p>
+          </div>
+          <div class="column w-1000-stack">
+            <a target=_blank href="https://docs.google.com/document/d/1X27FZ-DsTNsEmum4GqKFkBf03py0ZB17oqqFP8uf74Q/edit?usp=sharing"
+              class="btn btn--download">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)">
+                <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
+                <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path>
+              </svg>
+              Download CV
+            </a>
+            <a target="_blank" href="https://docs.google.com/document/d/1_SdhxSRA9azZdXzHK2om5m0uKbALl4EydlD4luWCHaw/edit?usp=sharing"
+              class="btn btn--download">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)">
+                <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
+                <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path>
+              </svg>
+              My Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end row -->
+  </section>
+  <!-- end s-about -->
+
+  <!-- resume
+    ================================================== -->
+  <section id="resume" class="s-resume target-section">
+    <div class="row s-resume__section">
+      <div class="column large-3 tab-12">
+        <h3 class="section-header-allcaps">Work Experience</h3>
+      </div>
+      <div class="column large-9 tab-12">
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h3 class="h3">SabilaMall</h3>
+            <p class="resume-block__header-meta">
+              <span>Lead Frontend Engineer (Freelance)</span>
+              <span class="resume-block__header-date">
+                Apr 2021 - Present
+              </span>
+            </p>
+          </div>
+          <p>
+            - Led a team of 5 frontend engineers and 3 UI/UX designers to revamp the old SabilaMall e-Commerce website
+            <br>
+            - Manage the project using agile development approach with Scrum method to accommodate quick requirement
+            changes <br>
+            - Created a new, fresh, nice looking, user friendly, and fully responsive website using NextJS and Chakra UI
+            <br>
+            - Reduced the loading time of the old website from minutes to only a few seconds
+          </p>
+          <a href="http://sabilamall.co.id/">Website</a>
+        </div>
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h3 class="h3">Advotics</h3>
+            <p class="resume-block__header-meta">
+              <span>Software Engineer (Internship)</span>
+              <span class="resume-block__header-date">
+                Jun 2021 - Sep 2021
+              </span>
+            </p>
+          </div>
+          <p>
+            - Set up Elastic APM in Kibana using OpenTracing API to monitor resource usages, logs, queries, and errors
+            for each Java service <br>
+            - Converted old Google Sheet API documentation to a static webpage using Python and Hugo Framework to
+            improve readibility for engineers <br>
+            - Worked on Open API Gateway using Spring Webflux with Java Reactive Programming <br>
+            - Contributed on Platform and Identity team to maintain Java Spring Codebase with Java design pattern
+          </p>
+          <a href="https://www.advotics.com/id/">Website</a>
+        </div>
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h3 class="h3">Kotakode</h3>
+            <p class="resume-block__header-meta">
+              <span>Full Stack Web Developer (Internship)</span>
+              <span class="resume-block__header-date">
+                Mar 2021 - Jun 2021
+              </span>
+            </p>
+          </div>
+          <p>
+            - Developed certificate features including PDF Preview using ReactJS, Redux, and Evergreen UI. <br>
+            - Implemented backend for certificate and resume builder features using ExpressJS, TypeORM, and PostgreSQL.
+            <br>
+            - Created end to end testing using Cypress for every new feature made. <br>
+            - Created progress bar component on profile page to check user profile completeness.
+          </p>
+          <a href="https://kotakode.com/">Website</a>
+        </div>
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h3 class="h3">SuperTentor</h3>
+            <p class="resume-block__header-meta">
+              <span>Software Engineer (Freelance)</span>
+              <span class="resume-block__header-date">
+                May 2020 - Jul 2020
+              </span>
+            </p>
+          </div>
+          <p>
+            - Developed a tryout web application for CPNS using laravel framework, jQuery, and MySQL. <br>
+            - Implemented the core tryout system, including tryout state management, tryout review, and tryout scoring.
+          </p>
+        </div>
+        <!-- end resume-block -->
+      </div>
+    </div>
+    <!-- s-resume__section -->
+
+    <div class="row s-resume__section">
+      <div class="column large-3 tab-12">
+        <h3 class="section-header-allcaps">Education</h3>
+      </div>
+      <div class="column large-9 tab-12">
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h4 class="h3">Universitas Indonesia</h4>
+            <p class="resume-block__header-meta">
+              <span>Bachelor of Computer Science</span>
+              <span>(GPA: 3.91)</span>
+              <span class="resume-block__header-date"> 2019 - 2023 </span>
+            </p>
+          </div>
+          <ul>
+            <li>Teaching Assistant for Platform Based (Web and Mobile) Programming in 2021</li>
+            <li>Teaching Assistant for Programming Foundations 2 in 2021</li>
+            <li>Teaching Assistant for Programming Foundations 1 in 2020</li>
+          </ul>
+        </div>
+        <!-- end resume-block -->
+      </div>
+    </div>
+    <!-- s-resume__section -->
+
+    <div class="row s-resume__section">
+      <div class="column large-3 tab-12">
+        <h3 class="section-header-allcaps">Organizational Experiences</h3>
+      </div>
+      <div class="column large-9 tab-12">
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h4 class="h3">BEM (Student Council) CS UI</h4>
+            <p class="resume-block__header-meta">
+              <span>Head of Project Development Division</span>
+              <span class="resume-block__header-date">Jan 2021 - Present</span>
+            </p>
+          </div>
+          <ul>
+            <li>
+              Managed 3 projects from clients and applied the best suited process model based on their characteristics.
+            </li>
+            <li>Built web applications based on client requests using latest stacks such as Next, Django, and Go</li>
+          </ul>
+          <a href="http://bem.cs.ui.ac.id/">Website</a>
+        </div>
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h4 class="h3">Pesta Rakyat Komputer</h4>
+            <p class="resume-block__header-meta">
+              <span>VPIC of Web Development</span>
+              <span class="resume-block__header-date">Des 2020 - May 2021</span>
+            </p>
+          </div>
+          <ul>
+            <li>
+              Manage the web development team (staffing, coordinating,
+              positioning).
+            </li>
+            <li>Build frontend pages using React with Context API.</li>
+            <li>Create a Restful API using Django Rest Framework.</li>
+          </ul>
+          <a href="https://perak.cs.ui.ac.id/">Website</a>
+        </div>
+        <!-- end resume-block -->
+        <div class="resume-block">
+          <div class="resume-block__header">
+            <h4 class="h3">Open House CS UI</h4>
+            <p class="resume-block__header-meta">
+              <span>Web Developer</span>
+              <span class="resume-block__header-date">Jun 2020 - Des 2020</span>
+            </p>
+          </div>
+          <ul>
+            <li>Build responsive web design with CSS and Bootstrap 4.</li>
+            <li>
+              Create basic and social (Facebook and Google) authentication
+              systems using django-allauth
+            </li>
+            <li>Implement newsletter emailing feature</li>
+          </ul>
+          <a href="http://oh.cs.ui.ac.id/">Website</a>
+        </div>
+        <!-- end resume-block -->
+      </div>
+    </div>
+    <!-- s-resume__section -->
+
+    <div class="row s-resume__section">
+      <div class="column large-3 tab-12">
+        <h3 class="section-header-allcaps">Skills</h3>
+      </div>
+      <div class="column large-9 tab-12">
+        <div class="resume-block">
+          <ul class="skill-bars-fat">
+            <li>
+              <div class="progress percent100" style="height: 36px;"></div>
+              <strong>Pyhon, Java, Go</strong>
+            </li>
+            <li>
+              <div class="progress percent100" style="height: 36px;"></div>
+              <strong>HTML5, CSS3, Javascript</strong>
+            </li>
+            <li>
+              <div class="progress percent100" style="height: 36px;"></div>
+              <strong>React, Redux, Gatsby, Next, Flutter</strong>
+            </li>
+            <li>
+              <div class="progress percent100" style="height: 36px;"></div>
+              <strong>Django, Laravel</strong>
+            </li>
+            <li>
+              <div class="progress percent100" style="height: 36px;"></div>
+              <strong>PostgreSQL, MySQL, Firebase</strong>
+            </li>
+            <li>
+              <div class="progress percent100" style="height: 36px;"></div>
+              <strong>Git, Figma</strong>
+            </li>
+          </ul>
+        </div>
+        <!-- end resume-block -->
+      </div>
+    </div>
+    <!-- s-resume__section -->
+  </section>
+  <!-- end s-resume -->
+
+  <!-- portfolio
+    ================================================== -->
+  <!-- end s-portfolio -->
+
+  <!-- contact
+    ================================================== -->
+  <section id="contact" class="s-contact target-section">
+    <div class="row s-contact__header">
+      <div class="column large-12">
+        <h3 class="section-header-allcaps">Say Hello</h3>
+      </div>
     </div>
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-      <div class="row s-header__nav-wrap">
-        <nav class="s-header__nav">
-          <ul>
-            <li class="current">
-              <a class="smoothscroll" href="#hero">Home</a>
-            </li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#contact">Say Hello</a></li>
-          </ul>
-        </nav>
+    <div class="row s-contact__content">
+      <div class="column large-7 medium-12">
+        <h4 class="huge-text">
+          Have a new project in mind? Let's collaborate and build something
+          awesome. Let's turn that idea to an even greater product :)
+        </h4>
       </div>
-      <!-- end row -->
 
-      <a class="s-header__menu-toggle" href="#0" title="Menu">
-        <span class="s-header__menu-icon"></span>
+      <div class="column large-4 medium-12">
+        <div class="row contact-infos">
+          <div class="column large-12 medium-6 tab-12">
+            <div class="contact-block">
+              <h5 class="contact-block__header">Email</h5>
+              <p class="contact-block__content">
+                <a class="mailtoui" href="mailto:ganiilhamirsyadi@gmail.com">ganiilhamirsyadi@gmail.com</a>
+              </p>
+            </div>
+            <!-- end contact-block -->
+          </div>
+          <div class="column large-12 medium-6 tab-12">
+            <div class="contact-block">
+              <h5 class="contact-block__header">Phone</h5>
+              <p class="contact-block__content">
+                <a href="tel:+6281327072544">+62 8132 7072 544</a>
+              </p>
+            </div>
+            <!-- end contact-block -->
+          </div>
+
+          <div class="column large-12">
+            <a href="mailto:ganiilhamirsyadi@gmail.com" class="mailtoui btn btn--primary h-full-width">Let's Talk</a>
+          </div>
+        </div>
+        <!-- end contact-infos -->
+      </div>
+    </div>
+    <!-- s-contact__content -->
+  </section>
+  <!-- end s-contact -->
+
+  <!-- footer
+    ================================================== -->
+  <footer class="s-footer">
+    <div class="row">
+      <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+        <ul class="s-footer__social">
+          <li>
+            <a href="https://www.instagram.com/ganiirsyadi/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://medium.com/@ganiilhamirsyadi/"><i class="fab fa-medium" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/ganiirsyadi"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://gitlab.com/ganiirsyadi"><i class="fab fa-gitlab" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ganiirsyadi"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+        <span>© Copyright Ceevee 2021</span>
+        <span>Design by
+          <a href="https://www.styleshout.com/">StyleShout</a></span>
+      </div>
+    </div>
+
+    <div class="ss-go-top">
+      <a class="smoothscroll" title="Back to Top" href="#top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
+        </svg>
       </a>
-    </header>
-    <!-- end s-header -->
+    </div>
+    <!-- end ss-go-top -->
+  </footer>
 
-    <!-- hero
+  <!-- Java Script
     ================================================== -->
-    <section id="hero" class="s-hero target-section">
-      <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
-      <div class="row s-hero__content">
-        <div class="column">
-          <div class="s-hero__content-about">
-            <h1>Hi, I'm Gani</h1>
-
-            <h3>
-              I am a <span>Software Engineer</span>. I'm creating awesome and
-              effective web apps using latest stacks, such as
-              <span>React</span>, <span>Redux</span>, <span>Gatsby</span>,
-              <span>Django</span>, <span>Laravel</span>, and many more. Let's
-              <a class="smoothscroll" href="#about">start scrolling</a> and
-              learn more <a class="smoothscroll" href="#about">about me</a>.
-            </h3>
-
-            <div class="s-hero__content-social">
-              <a href="https://www.instagram.com/ganiirsyadi/"
-                ><i class="fab fa-instagram" aria-hidden="true"></i
-              ></a>
-              <a href="https://medium.com/@ganiilhamirsyadi/"
-                ><i class="fab fa-medium" aria-hidden="true"></i
-              ></a>
-              <a href="https://github.com/ganiirsyadi"
-                ><i class="fab fa-github" aria-hidden="true"></i
-              ></a>
-              <a href="https://gitlab.com/ganiirsyadi"
-                ><i class="fab fa-gitlab" aria-hidden="true"></i
-              ></a>
-              <a href="https://www.linkedin.com/in/ganiirsyadi"
-                ><i class="fab fa-linkedin" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-          <!-- end s-hero__content-about -->
-        </div>
-      </div>
-      <!-- s-hero__content -->
-
-      <div class="s-hero__scroll">
-        <a href="#about" class="s-hero__scroll-link smoothscroll">
-          <span class="scroll-arrow">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              style="fill: rgba(0, 0, 0, 1);"
-            >
-              <path
-                d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"
-              ></path>
-            </svg>
-          </span>
-          <span class="scroll-text">Scroll Down</span>
-        </a>
-      </div>
-      <!-- s-hero__scroll -->
-    </section>
-    <!-- end s-hero -->
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-      <div class="row">
-        <div class="column large-3 tab-12">
-          <img class="s-about__pic" src="images/profile.jfif" alt="" />
-        </div>
-        <div class="column large-9 tab-12 s-about__content">
-          <h3>About Me</h3>
-          <p>
-            Hello, I am a computer science student at Universitas Indonesia. I
-            have many experiences in developing web applications for several
-            projects. I am also active at organizational and event in my school.
-            My curiosity is always high at learning new technology. I can adapt
-            fast to a new environment. Never stop to learn is my motto for life.
-          </p>
-
-          <hr />
-
-          <div class="row s-about__content-bottom">
-            <div class="column w-1000-stack">
-              <h3>Contact Details</h3>
-
-              <p>
-                Gani Ilham Irsyadi <br />
-                Jepara, Jawa Tengah <br />
-                <a href="tel:+6281327072544">+62 8132 7072 544</a> <br />
-                <a href="mailto:ganiilhamirsyadi@gmail.com"
-                  >ganiilhamirsyadi@gmail.com</a
-                >
-              </p>
-            </div>
-            <div class="column w-1000-stack">
-              <a href="https://docs.google.com/document/d/1X27FZ-DsTNsEmum4GqKFkBf03py0ZB17oqqFP8uf74Q/edit?usp=sharing" class="btn btn--download">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  style="fill: rgba(0, 0, 0, 1)"
-                >
-                  <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
-                  <path
-                    d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"
-                  ></path>
-                </svg>
-                Download CV
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end row -->
-    </section>
-    <!-- end s-about -->
-
-    <!-- resume
-    ================================================== -->
-    <section id="resume" class="s-resume target-section">
-      <div class="row s-resume__section">
-        <div class="column large-3 tab-12">
-          <h3 class="section-header-allcaps">Work Experience</h3>
-        </div>
-        <div class="column large-9 tab-12">
-          <div class="resume-block">
-            <div class="resume-block__header">
-              <h3 class="h3">SuperTentor</h3>
-              <p class="resume-block__header-meta">
-                <span>Software Engineer (Contract)</span>
-                <span class="resume-block__header-date">
-                  May 2020 - Jul 2020
-                </span>
-              </p>
-            </div>
-            <p>
-              Develop a tryout web application for CPNS using laravel framework
-              and Javascript jQuery.
-            </p>
-            <a href="http://supertentor.com/">Website</a>
-          </div>
-          <!-- end resume-block -->
-        </div>
-      </div>
-      <!-- s-resume__section -->
-
-      <div class="row s-resume__section">
-        <div class="column large-3 tab-12">
-          <h3 class="section-header-allcaps">Education</h3>
-        </div>
-        <div class="column large-9 tab-12">
-          <div class="resume-block">
-            <div class="resume-block__header">
-              <h4 class="h3">Universitas Indonesia</h4>
-              <p class="resume-block__header-meta">
-                <span>Bachelor of Computer Science</span>
-                <span class="resume-block__header-date"> 2019 - 2023 </span>
-              </p>
-            </div>
-            <ul>
-              <li>Teaching Assistant for Programming Foundations 1 in 2020</li>
-            </ul>
-          </div>
-          <!-- end resume-block -->
-        </div>
-      </div>
-      <!-- s-resume__section -->
-
-      <div class="row s-resume__section">
-        <div class="column large-3 tab-12">
-          <h3 class="section-header-allcaps">Organizational Experiences</h3>
-        </div>
-        <div class="column large-9 tab-12">
-          <div class="resume-block">
-            <div class="resume-block__header">
-              <h4 class="h3">Pesta Rakyat Komputer</h4>
-              <p class="resume-block__header-meta">
-                <span>VPIC of Web Development</span>
-                <span class="resume-block__header-date"
-                  >Des 2020 - Present</span
-                >
-              </p>
-            </div>
-            <ul>
-              <li>
-                Manage the web development team (staffing, coordinating,
-                positioning).
-              </li>
-              <li>Build frontend pages using React with Context API.</li>
-              <li>Create a Restful API using Django Rest Framework.</li>
-            </ul>
-            <a href="https://perak.cs.ui.ac.id/">Website</a>
-          </div>
-          <!-- end resume-block -->
-          <div class="resume-block">
-            <div class="resume-block__header">
-              <h4 class="h3">Open House CS UI</h4>
-              <p class="resume-block__header-meta">
-                <span>Web Developer</span>
-                <span class="resume-block__header-date"
-                  >Jun 2020 - Des 2020</span
-                >
-              </p>
-            </div>
-            <ul>
-              <li>Build responsive web design with CSS and Bootstrap 4.</li>
-              <li>
-                Create basic and social (Facebook and Google) authentication
-                systems using django-allauth
-              </li>
-              <li>Implement newsletter emailing feature</li>
-            </ul>
-            <a href="http://oh.cs.ui.ac.id/">Website</a>
-          </div>
-          <!-- end resume-block -->
-          <div class="resume-block">
-            <div class="resume-block__header">
-              <h4 class="h3">BEM (Student Council) CS UI</h4>
-              <p class="resume-block__header-meta">
-                <span>Staff of Project Management division</span>
-                <span class="resume-block__header-date"
-                  >Jun 2020 - Des 2020</span
-                >
-              </p>
-            </div>
-            <p>Build web applications based on client requests</p>
-            <a href="http://bem.cs.ui.ac.id/">Website</a>
-          </div>
-          <!-- end resume-block -->
-        </div>
-      </div>
-      <!-- s-resume__section -->
-
-      <div class="row s-resume__section">
-        <div class="column large-3 tab-12">
-          <h3 class="section-header-allcaps">Skills</h3>
-        </div>
-        <div class="column large-9 tab-12">
-          <div class="resume-block">
-            <ul class="skill-bars-fat">
-              <li>
-                <div class="progress percent100" style="height: 36px;"></div>
-                <strong>Pyhon, Java, PHP</strong>
-              </li>
-              <li>
-                <div class="progress percent100" style="height: 36px;"></div>
-                <strong>HTML5, CSS3, Javascript</strong>
-              </li>
-              <li>
-                <div class="progress percent100" style="height: 36px;"></div>
-                <strong>React, Redux, Gatsby, Flutter</strong>
-              </li>
-              <li>
-                <div class="progress percent100" style="height: 36px;"></div>
-                <strong>Django, Laravel</strong>
-              </li>
-              <li>
-                <div class="progress percent100" style="height: 36px;"></div>
-                <strong>PostgreSQL, MySQL</strong>
-              </li>
-              <li>
-                <div class="progress percent100" style="height: 36px;"></div>
-                <strong>Git, Figma</strong>
-              </li>
-            </ul>
-          </div>
-          <!-- end resume-block -->
-        </div>
-      </div>
-      <!-- s-resume__section -->
-    </section>
-    <!-- end s-resume -->
-
-    <!-- portfolio
-    ================================================== -->
-    <section id="portfolio" class="s-portfolio target-section">
-      <div class="row s-portfolio__header">
-        <div class="column large-12">
-          <h3>A Few Of My Latest Project</h3>
-        </div>
-      </div>
-
-      <div
-        class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list"
-      >
-        <div class="column folio-item">
-          <a id="porto1" href="#modal-01" class="folio-item__thumb">
-            <img src="images/portfolio/porto1-sm.png" alt="porto1"/>
-          </a>
-        </div>
-        <div class="column folio-item">
-          <a id="porto2" href="#modal-02" class="folio-item__thumb">
-            <img src="images/portfolio/porto2-sm.png" alt="porto2" />
-          </a>
-        </div>
-        <div class="column folio-item">
-          <a id="porto3" href="#modal-03" class="folio-item__thumb">
-            <img src="images/portfolio/porto3-sm.png" alt="porto3" />
-          </a>
-        </div>
-        <div class="column folio-item">
-          <a id="porto4" href="#modal-04" class="folio-item__thumb">
-            <img src="images/portfolio/porto4-sm.png" alt="porto4" />
-          </a>
-        </div>
-        <div class="column folio-item">
-          <a id="porto5" href="#modal-05" class="folio-item__thumb">
-            <img src="images/portfolio/porto5-sm.png" alt="porto5" />
-          </a>
-        </div>
-        <div class="column folio-item">
-          <p id="comingsoon" class="folio-item__thumb">
-            <img src="images/portfolio/comingsoon.png" alt="comingsoon" />
-          </p>
-        </div>
-        <!-- end folio-item -->
-      </div>
-      <!-- end folio-list -->
-
-      <!-- Modal Templates Popup
-        =========================================================== -->
-      <div id="modal-01" hidden>
-        <div class="modal-popup">
-          <img src="images/portfolio/gallery/porto1.png" alt="porto1" />
-
-          <div class="modal-popup__desc">
-            <h5>Pemira (Election) Faculty of Pharmacy UI</h5>
-            <p><a href="https://github.com/ganiirsyadi/pemira-ffui-public">Source Code</a></p>
-            <ul>
-              <li>
-                Create a website for Pemilihan Raya (Election) Faculty of
-                Pharmacy Universitas Indonesia using django.
-              </li>
-              <li>Design interactive and responsive UI using Figma.</li>
-              <li>Implement emailing for one time password with Amazon SES.</li>
-              <li>Deploy to a linux server using gunicorn and nginx.</li>
-            </ul>
-            <ul class="modal-popup__cat">
-              <li>Django</li>
-              <li>jQuery</li>
-              <li>AWS SES</li>
-              <li>Nginx</li>
-              <li>Gunicorn</li>
-              <li>Figma</li>
-            </ul>
-          </div>
-
-          <a href="https://pemiraffui.herokuapp.com/" class="modal-popup__details">
-            Live Demo</a>
-        </div>
-      </div>
-      <div id="modal-02" hidden>
-        <div class="modal-popup">
-          <img src="images/portfolio/gallery/porto2.png" alt="porto2" />
-
-          <div class="modal-popup__desc">
-            <h5>CPNS Tryout</h5>
-            <p><a href="https://gitlab.com/ganiirsyadi/tryout-react">Source Code</a></p>
-            <p>Rebuild supertentor tryout feature using React, Context API, and saving state using session storage</p>
-            <ul class="modal-popup__cat">
-              <li>React</li>
-              <li>Context API</li>
-            </ul>
-          </div>
-
-          <a href="https://gitlab.com/ganiirsyadi/tryout-react" class="modal-popup__details"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div id="modal-03" hidden>
-        <div class="modal-popup">
-          <img src="images/portfolio/gallery/porto3.png" alt="porto3" />
-          <div class="modal-popup__desc">
-            <h5>BMI Calculator</h5>
-            <p><a href="https://gitlab.com/ganiirsyadi/mini-project-ddp-2">Source Code</a></p>
-            <p>A course work using java springboot.</p>
-            <ul>
-              <li>Using Java Springboot for building the apps.</li>
-              <li>BMI Record saved inside browser Cookies so user can track their BMI progress.</li>
-              <li>User will get recommendation based on the BMI value they get.</li>
-            </ul>
-            <ul class="modal-popup__cat">
-              <li>Java</li>
-              <li>Springboot</li>
-            </ul>
-          </div>
-
-          <a href="http://yourbmi.herokuapp.com/" class="modal-popup__details"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div id="modal-04" hidden>
-        <div class="modal-popup">
-          <img src="images/portfolio/gallery/porto4.png" alt="porto4" />
-
-          <div class="modal-popup__desc">
-            <h5>Search a Book</h5>
-            <p><a href="https://gitlab.com/ganiirsyadi/book-search">Source Code</a></p>
-            <ul>
-              <li>Using google books API to lookup for a book.</li>
-              <li>User can give a like to some books and see the total like for a certain book.</li>
-              <li>Using async javascript for all data manipulation on database.</li>
-            </ul>
-            <ul class="modal-popup__cat">
-              <li>Django</li>
-              <li>Javascript</li>
-              <li>Public API</li>
-            </ul>
-          </div>
-
-          <a href="http://search-the-book.herokuapp.com/" class="modal-popup__details"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div id="modal-05" hidden>
-        <div class="modal-popup">
-          <img src="images/portfolio/gallery/porto5.png" alt="porto5" />
-
-          <div class="modal-popup__desc">
-            <h5>Car Rental Website</h5>
-            <p><a href="https://gitlab.com/ganiirsyadi/ppw-project1">Source Code</a></p>
-
-            <ul>
-              <li>Test Driven Development using Red - Green - Refactor approach with django test and Selenium.</li>
-              <li>Automate testing and deployment to Heroku using gitlab CI/CD.</li>
-              <li>Implement email and google authentication using Django Allauth.</li>
-              <li>Using ajax to update data on the website.</li>
-            </ul>
-            <ul class="modal-popup__cat">
-              <li>Django</li>
-              <li>jQuery</li>
-              <li>Selenium</li>
-            </ul>
-          </div>
-
-          <a href="http://pw-rental.herokuapp.com/" class="modal-popup__details"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <!-- end modal -->
-    </section>
-    <!-- end s-portfolio -->
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-      <div class="row s-contact__header">
-        <div class="column large-12">
-          <h3 class="section-header-allcaps">Say Hello</h3>
-        </div>
-      </div>
-
-      <div class="row s-contact__content">
-        <div class="column large-7 medium-12">
-          <h4 class="huge-text">
-            Have a new project in mind? Let's collaborate and build something
-            awesome. Let's turn that idea to an even greater product :)
-          </h4>
-        </div>
-
-        <div class="column large-4 medium-12">
-          <div class="row contact-infos">
-            <div class="column large-12 medium-6 tab-12">
-              <div class="contact-block">
-                <h5 class="contact-block__header">Email</h5>
-                <p class="contact-block__content">
-                  <a class="mailtoui" href="mailto:ganiilhamirsyadi@gmail.com"
-                    >ganiilhamirsyadi@gmail.com</a
-                  >
-                </p>
-              </div>
-              <!-- end contact-block -->
-            </div>
-            <div class="column large-12 medium-6 tab-12">
-              <div class="contact-block">
-                <h5 class="contact-block__header">Phone</h5>
-                <p class="contact-block__content">
-                  <a href="tel:+6281327072544">+62 8132 7072 544</a>
-                </p>
-              </div>
-              <!-- end contact-block -->
-            </div>
-
-            <div class="column large-12">
-              <a
-                href="mailto:ganiilhamirsyadi@gmail.com"
-                class="mailtoui btn btn--primary h-full-width"
-                >Let's Talk</a
-              >
-            </div>
-          </div>
-          <!-- end contact-infos -->
-        </div>
-      </div>
-      <!-- s-contact__content -->
-    </section>
-    <!-- end s-contact -->
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-      <div class="row">
-        <div
-          class="column large-4 medium-6 w-1000-stack s-footer__social-block"
-        >
-          <ul class="s-footer__social">
-            <li>
-              <a href="https://www.instagram.com/ganiirsyadi/"
-                ><i class="fab fa-instagram" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://medium.com/@ganiilhamirsyadi/"
-                ><i class="fab fa-medium" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://github.com/ganiirsyadi"
-                ><i class="fab fa-github" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://gitlab.com/ganiirsyadi"
-                ><i class="fab fa-gitlab" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/ganiirsyadi"
-                ><i class="fab fa-linkedin" aria-hidden="true"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="column large-7 medium-6 w-1000-stack ss-copyright">
-          <span>© Copyright Ceevee 2021</span>
-          <span
-            >Design by
-            <a href="https://www.styleshout.com/">StyleShout</a></span
-          >
-        </div>
-      </div>
-
-      <div class="ss-go-top">
-        <a class="smoothscroll" title="Back to Top" href="#top">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
-          </svg>
-        </a>
-      </div>
-      <!-- end ss-go-top -->
-    </footer>
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-  </body>
 </html>
